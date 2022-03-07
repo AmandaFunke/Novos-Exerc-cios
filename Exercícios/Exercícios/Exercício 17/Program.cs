@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Common;
+using System;
 
 namespace Exercício_17
 {
@@ -17,33 +18,35 @@ namespace Exercício_17
             {
                 Console.WriteLine("Enter a time value in the 24-hour time format! To close type x");
 
-                var answer = Console.ReadLine();
+                var answerSplited = Console.ReadLine().Split(':').ToInteger();
 
-                if (answer.ToLower() == "x")
-                {
-                    keepGoing = false;
-                }
-                else
-                {
-                    var isTime = DateTime.TryParse(answer, out var date);
+                
+
+                //if (answer.ToLower() == "x")
+                //{
+                //    keepGoing = false;
+                //}
+                //else
+                //{
+                //    var isTime = DateTime.TryParse(answer, out var date);
 
 
-                    if (isTime)
-                    {
-                        if (date.Hour >= 0 && date.Hour < 24)
-                        {
-                            Console.WriteLine("Ok");
-                            Console.ReadLine();
-                            Console.Clear();
-                        }
-                    }
-                    else
-                    {
-                        Console.WriteLine("Invalid Time");
-                        Console.ReadLine();
-                        Console.Clear();
-                    }
-                }
+                //    if (isTime)
+                //    {
+                //        if (date.Hour >= 0 && date.Hour < 24)
+                //        {
+                //            Console.WriteLine("Ok");
+                //            Console.ReadLine();
+                //            Console.Clear();
+                //        }
+                //    }
+                //    else
+                //    {
+                //        Console.WriteLine("Invalid Time");
+                //        Console.ReadLine();
+                //        Console.Clear();
+                //    }
+                //}
             }
         }
     }
