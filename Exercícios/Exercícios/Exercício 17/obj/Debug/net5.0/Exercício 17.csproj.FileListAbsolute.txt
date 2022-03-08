@@ -1,0 +1,19 @@
+C:\Users\amand\Documents\Exercícios Programação\Exercícios\Exercícios\Exercício 17\bin\Debug\net5.0\Exercício 17.exe
+C:\Users\amand\Documents\Exercícios Programação\Exercícios\Exercícios\Exercício 17\bin\Debug\net5.0\Exercício 17.deps.json
+C:\Users\amand\Documents\Exercícios Programação\Exercícios\Exercícios\Exercício 17\bin\Debug\net5.0\Exercício 17.runtimeconfig.json
+C:\Users\amand\Documents\Exercícios Programação\Exercícios\Exercícios\Exercício 17\bin\Debug\net5.0\Exercício 17.runtimeconfig.dev.json
+C:\Users\amand\Documents\Exercícios Programação\Exercícios\Exercícios\Exercício 17\bin\Debug\net5.0\Exercício 17.dll
+C:\Users\amand\Documents\Exercícios Programação\Exercícios\Exercícios\Exercício 17\bin\Debug\net5.0\Exercício 17.pdb
+C:\Users\amand\Documents\Exercícios Programação\Exercícios\Exercícios\Exercício 17\bin\Debug\net5.0\Common.dll
+C:\Users\amand\Documents\Exercícios Programação\Exercícios\Exercícios\Exercício 17\bin\Debug\net5.0\Common.pdb
+C:\Users\amand\Documents\Exercícios Programação\Exercícios\Exercícios\Exercício 17\obj\Debug\net5.0\Exercício 17.csproj.AssemblyReference.cache
+C:\Users\amand\Documents\Exercícios Programação\Exercícios\Exercícios\Exercício 17\obj\Debug\net5.0\Exercício 17.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\amand\Documents\Exercícios Programação\Exercícios\Exercícios\Exercício 17\obj\Debug\net5.0\Exercício 17.AssemblyInfoInputs.cache
+C:\Users\amand\Documents\Exercícios Programação\Exercícios\Exercícios\Exercício 17\obj\Debug\net5.0\Exercício 17.AssemblyInfo.cs
+C:\Users\amand\Documents\Exercícios Programação\Exercícios\Exercícios\Exercício 17\obj\Debug\net5.0\Exercício 17.csproj.CoreCompileInputs.cache
+C:\Users\amand\Documents\Exercícios Programação\Exercícios\Exercícios\Exercício 17\obj\Debug\net5.0\Exercício 17.csproj.CopyComplete
+C:\Users\amand\Documents\Exercícios Programação\Exercícios\Exercícios\Exercício 17\obj\Debug\net5.0\Exercício 17.dll
+C:\Users\amand\Documents\Exercícios Programação\Exercícios\Exercícios\Exercício 17\obj\Debug\net5.0\refint\Exercício 17.dll
+C:\Users\amand\Documents\Exercícios Programação\Exercícios\Exercícios\Exercício 17\obj\Debug\net5.0\Exercício 17.pdb
+C:\Users\amand\Documents\Exercícios Programação\Exercícios\Exercícios\Exercício 17\obj\Debug\net5.0\Exercício 17.genruntimeconfig.cache
+C:\Users\amand\Documents\Exercícios Programação\Exercícios\Exercícios\Exercício 17\obj\Debug\net5.0\ref\Exercício 17.dll

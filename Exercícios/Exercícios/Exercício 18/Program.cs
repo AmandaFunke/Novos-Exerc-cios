@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Exercício_18
 {
@@ -16,28 +17,22 @@ namespace Exercício_18
 
             var answer = Console.ReadLine();
 
-            var lowerAnswer = answer.ToLower();
-
-            var words = lowerAnswer.Split(' ');
-
-
-
+            var words = answer.Split(' ');
 
             foreach (var word in words)
             {
-                //var letters = word.ToCharArray();
+                var lowerLetters = word.ToLower().ToCharArray();
+                var upperLetters = word.ToUpper().ToCharArray();
 
-                //Char.ToUpper(letters[0]);
+                Console.Write(upperLetters[0]);
 
-                //Console.Write(Char.ToUpper(letters[0]));
-                //Console.Write(letters);
-
-
-
-
-
-
+                for (int i = 1; i < lowerLetters.Length; i++)
+                {
+                    Console.Write(lowerLetters[i]);
+                }
             }
+
+            Console.ReadLine();
         }
     }
 }

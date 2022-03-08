@@ -1,5 +1,6 @@
 ﻿using Common;
 using System;
+using System.Linq;
 
 namespace Exercício_17
 {
@@ -20,33 +21,27 @@ namespace Exercício_17
 
                 var answerSplited = Console.ReadLine().Split(':').ToInteger();
 
-                
+                if (answerSplited.Count == 2)
+                {
+                    var hour = answerSplited[0];
+                    var minute = answerSplited[1];
 
-                //if (answer.ToLower() == "x")
-                //{
-                //    keepGoing = false;
-                //}
-                //else
-                //{
-                //    var isTime = DateTime.TryParse(answer, out var date);
+                    bool validHour = hour >= 0 && hour < 24;
+                    bool validMinute = minute >= 0 && minute < 60;
 
-
-                //    if (isTime)
-                //    {
-                //        if (date.Hour >= 0 && date.Hour < 24)
-                //        {
-                //            Console.WriteLine("Ok");
-                //            Console.ReadLine();
-                //            Console.Clear();
-                //        }
-                //    }
-                //    else
-                //    {
-                //        Console.WriteLine("Invalid Time");
-                //        Console.ReadLine();
-                //        Console.Clear();
-                //    }
-                //}
+                    if (validHour && validMinute)
+                    {
+                        Console.WriteLine("Ok");
+                    }
+                    else
+                    {
+                        Console.WriteLine("Invalid Time");
+                    }
+                }
+                else
+                { 
+                    Console.WriteLine("Invalid Time");
+                }                
             }
         }
     }
