@@ -17,22 +17,30 @@ namespace Exercício_21
             {
                 var splitedContent = File.ReadAllText(filePath).Split(' ');
 
-                var wordsLength = new List<int>();
+                //var wordsLength = new List<int>();
 
-                foreach (var word in splitedContent)
-                    wordsLength.Add(word.Length);
+                //foreach (var word in splitedContent)
+                //    wordsLength.Add(word.Length);
 
-                wordsLength.Sort();
-                
-                var IndexOfLongestWord = wordsLength.Count();
-                var longestWord = wordsLength[IndexOfLongestWord];
+                //wordsLength.Sort();
 
-                foreach (var word in splitedContent)
+                //var longestWordLength = wordsLength[wordsLength.Count() - 1];
+
+                //foreach (var word in splitedContent)
+                //{
+                //    if (word.Length == longestWordLength)
+                //        Console.WriteLine("The longest word is: " + word);
+                //}
+
+                var big = splitedContent.FirstOrDefault();
+
+                foreach(var word in splitedContent)
                 {
-                    if (word.Length == longestWord)
-                        Console.WriteLine(word);
+                    if (word.Length > big.Length)
+                        big = word;
                 }
 
+                Console.WriteLine("The longest word is: " + big);
             }
 
             Console.ReadLine();
